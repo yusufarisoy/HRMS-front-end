@@ -7,9 +7,9 @@ Engin Demiroğ, Java + React bootcamp HRMS project front-end codes.
 
 ## UML Component Diagram
 
-![output](app_images/uml_component_diagram)
+![output](app_images/uml_component_diagram.png)
 
 
 ## In App Screenshots
 
-![output](app_images/output_hrms_react_employees)
+![output](app_images/output_hrms_react_employees.png)
