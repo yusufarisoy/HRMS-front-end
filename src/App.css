@@ -5,3 +5,15 @@
 .main-content {
   margin-top: 2em;
 }
+
+.card .content {
+  text-align: start;
+}
+
+.card .content .header {
+  margin-bottom: 0.1em;
+}
+
+.card .content .meta {
+  margin-bottom: 0.1em;
+}

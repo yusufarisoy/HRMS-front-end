@@ -1,12 +1,12 @@
 import axios from 'axios';
 
 export default class JobAdvertisementService {
-    addJobAdvertisement = () => {
-        //TODO: implement
+    add = body => {
+        return axios.post('http://localhost:8080/api/job-advertisements/add', body);
     }
 
-    getJobAdvertisementsByStatus = () => {
-        //TODO: implement
+    getJobAdvertisementsByStatus = (approvalStatus, status) => {
+        return axios.get('http://localhost:8080/api/job-advertisements/get-by-status?approvalStatus=' + approvalStatus + '&status=' + status);
     }
 
     getJobAdvertisementsByStatusAndReleaseDate = () => {
