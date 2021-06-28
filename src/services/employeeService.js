@@ -8,4 +8,8 @@ export default class EmployeeService {
     addEmployee = () => {
         //TODO: implement
     }
+
+    addJobAdvertisementToFavorites = body => {
+        return axios.post('http://localhost:8080/api/employee-favorite-job-advertisements/add', body);
+    }
 }

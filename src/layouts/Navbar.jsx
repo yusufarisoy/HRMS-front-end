@@ -24,7 +24,7 @@ export default function Navbar() {
         <div>
             <Menu inverted>
                 <Container>
-                    <Menu.Item as={NavLink} to='/' name='Job Ads'/>
+                    <Menu.Item as={NavLink} to='/job-ads' name='Job Ads'/>
                     <Menu.Item as={NavLink} to='/employees' name='Employees'/>
                     <Menu.Item as={NavLink} to='/employers' name='Employers'/>
 
